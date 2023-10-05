@@ -9,7 +9,7 @@
     "assembly": {
       "BouncyCastle.Crypto.dll": "sha256-MzkDx9IqJwmORfxkt3omSqIgYFz70+MpwgDX5LQsiBw=",
       "BouncyCastle.Cryptography.dll": "sha256-ghU8DmiDSg9A4gA4QlQpo+P5z02rvJGRtHbP5WGKFB0=",
-      "Converter - Website.dll": "sha256-a5u+3F0lMgBEvjKYIGCo0sdxFtHlQtk5MgEu5Ki\/0UE=",
+      "Converter - Website.dll": "sha256-YU5xvSZZ0v7RLzmgDEgCqPFsr6obEoqp0DynSSw7oyA=",
       "CsvHelper.dll": "sha256-oh395MqwHOdv87ggl0L2cpWEDZZGFYe3CVUXnzSo8rY=",
       "Enums.NET.dll": "sha256-JvYElQXRGkZIu7Z1+NCKL9wGo7lrfM+mxf4l813WwM0=",
       "ICSharpCode.SharpZipLib.dll": "sha256-K4ug2pe2HVcvI0U5szV\/eavFCqkllm40Nfypq0yf828=",
@@ -39,7 +39,7 @@
       "NPOI.OOXML.dll": "sha256-mj9V7W2v7r4+6c6f8ztYflBe0IXM2XcgngjKLGcXDHY=",
       "NPOI.OpenXml4Net.dll": "sha256-yLW4kjXVvFdVxjjQ4ZK8n2hpz8nx3ouaE7EIcASs5I0=",
       "NPOI.OpenXmlFormats.dll": "sha256-ewicPqfLgxPq10IE0Lgup54oFdp9wCMgITJxFxRdB8A=",
-      "RateConverterLibrary.dll": "sha256-PCunwSnSFGRg6\/Dw6Fi\/JYAiWgj\/ZhI2mXfgHWMRjLA=",
+      "RateConverterLibrary.dll": "sha256-Mzw\/UHZQAC0KPhzBtA4M\/+uUYgz2Fxl4b2qMmQppBEQ=",
       "SixLabors.Fonts.dll": "sha256-4eLxB+fHj7hZ8bIzgxB6ElrNizp0cBQIUNqm9vbEXZ8=",
       "SixLabors.ImageSharp.dll": "sha256-FoFGAImn625ikreyYHhjn4juLyPY1tqRxyRMjvKEaYs=",
       "System.Buffers.dll": "sha256-b3T+dZWMr4nxc6X1KKHyse6FATJ5tFT8Q\/HN1h2WpDI=",
