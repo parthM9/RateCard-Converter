@@ -1,0 +1,258 @@
+﻿
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.modal {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+.modal-content {
+    overflow: auto;
+}
+
+.content-wrapper {
+    flex: 1;
+    overflow-y: auto; /* Allow scrolling within content area */
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+    .jumbotron h1 {
+        color: #333;
+    }
+
+    .jumbotron p.lead {
+        color: #555;
+    }
+
+    .jumbotron ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+        .jumbotron ul li {
+            padding: 5px 0;
+        }
+
+            .jumbotron ul li:before {
+                content: '✔';
+                color: #28a745; /* Bootstrap's success color */
+                margin-right: 8px;
+            }
+
+.row {
+    margin: 0;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.preview-window {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+.footer {
+    flex-shrink: 0; /* Prevent footer from shrinking */
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.supported-carriers ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.supported-carriers li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.checkmark {
+    color: #28a745;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-radius: .2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05);
+}
+..parent-container {
+    position: relative;
+    height: 500px; /* Or whatever height you want */
+    overflow: auto;
+}
+
+.tabs-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.tab-button {
+    background-color: #f1f1f1;
+    border: none;
+    color: #000;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: for rounded corners */
+}
+
+    .tab-button:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+
+.sheets-container {
+    padding-top: 10px; /* Space between tabs and content */
+}
+
+
+.sheets-container .sheet {
+    display: none;
+}
+
+    .sheets-container .sheet:first-child {
+        display: block;
+    }
+
+th, td {
+    border: 1px solid #dee2e6;
+    padding: .75rem;
+    vertical-align: top;
+    text-align: left;
+}
+
+th {
+    background-color: #f9fafb;
+    font-weight: bold;
+    border-bottom-width: 2px;
+}
+
+/* Zebra Striping for rows */
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #ddd;
+}
+.select-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select {
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 25px; /* Make space for the arrow */
+    background: transparent; /* Optional: Set to match your design */
+    border: 1px solid #ccc; /* Optional: Set to match your design */
+    border-radius: 4px; /* Optional: Set to match your design */
+}
+
+.select-container::after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Make sure the pseudo-element doesn't block interactions with the select box */
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+    tr {
+        margin-bottom: .625rem;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+        td:before {
+            /* Now like a table header */
+            position: absolute;
+            /* Top/left values mimic padding */
+            top: 6px;
+            left: 6px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+            content: attr(data-column);
+        }
+}
+
+
+
